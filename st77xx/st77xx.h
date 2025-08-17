@@ -1,5 +1,5 @@
 //----------------------------------------------------------------------------------------------------
-// Program to work with an SD card for Petit FatFS
+// Program to work with an display ST7735 and ST7789
 // Copyright (C) 2025 YuriYuri (Yuriy Golovin)
 //
 // This program is free software: you can redistribute it and/or modify
@@ -104,3 +104,4 @@ void st77xx_set_col_row_addr(uint16_t st77xx_x_start, uint16_t st77xx_y_stasrt, 
 
 
 #endif
+
