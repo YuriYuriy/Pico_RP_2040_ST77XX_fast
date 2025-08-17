@@ -1,5 +1,5 @@
 //----------------------------------------------------------------------------------------------------
-// Program to work with an SD card for Petit FatFS
+// Program to work with an display ST7735 and ST7789
 // Copyright (C) 2025 YuriYuri (Yuriy Golovin)
 //
 // This program is free software: you can redistribute it and/or modify
@@ -193,3 +193,4 @@ void st77xx_print_symbol(uint8_t symbol_x, uint8_t symbol_y, uint16_t symbol, ui
 void st77xx_print_line(uint8_t line_x, uint8_t line_y, unsigned char *line, uint16_t color_line, uint16_t color_background_line);
 
 #endif
+
