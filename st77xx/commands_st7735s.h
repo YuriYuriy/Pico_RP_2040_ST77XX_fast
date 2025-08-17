@@ -76,5 +76,4 @@
 #define ST7735S_GMCTRN1    0xE1  // Gamma ‘-’ polarity Correction Characteristics Setting 
 #define ST7735S_GCV        0xFC  // Gate Pump Clock Frequency Variable 
 
-
 #endif
