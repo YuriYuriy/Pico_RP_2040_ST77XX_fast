@@ -1,5 +1,5 @@
 //----------------------------------------------------------------------------------------------------
-// Program to work with an SD card for Petit FatFS
+// Program to work with an display ST7735 and ST7789
 // Copyright (C) 2025 YuriYuri (Yuriy Golovin)
 //
 // This program is free software: you can redistribute it and/or modify
@@ -343,5 +343,6 @@ static const uint16_t image_data_Asuka[22500] = {
 };
 
 #endif
+
 
 
