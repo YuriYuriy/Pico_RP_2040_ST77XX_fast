@@ -192,5 +192,4 @@ static const unsigned char fonts_7x10[] = {
 void st77xx_print_symbol(uint8_t symbol_x, uint8_t symbol_y, uint16_t symbol, uint16_t color_symbol, uint16_t color_background_symbol);
 void st77xx_print_line(uint8_t line_x, uint8_t line_y, unsigned char *line, uint16_t color_line, uint16_t color_background_line);
 
-
 #endif
