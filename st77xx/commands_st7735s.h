@@ -1,5 +1,5 @@
 //----------------------------------------------------------------------------------------------------
-// Program to work with an SD card for Petit FatFS
+// Program to work with an display ST7735 and ST7789
 // Copyright (C) 2025 YuriYuri (Yuriy Golovin)
 //
 // This program is free software: you can redistribute it and/or modify
@@ -77,3 +77,4 @@
 #define ST7735S_GCV        0xFC  // Gate Pump Clock Frequency Variable 
 
 #endif
+
