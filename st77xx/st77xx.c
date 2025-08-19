@@ -1,19 +1,5 @@
 //----------------------------------------------------------------------------------------------------
-// Program to work with an display ST7735 and ST7789
-// Copyright (C) 2025 YuriYuri (Yuriy Golovin)
-//
-// This program is free software: you can redistribute it and/or modify
-// it under the terms of the GNU General Public License as published by
-// the Free Software Foundation, either version 3 of the License, or
-// (at your option) any later version.
-//
-// This program is distributed in the hope that it will be useful,
-// but WITHOUT ANY WARRANTY; without even the implied warranty of
-// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-// GNU General Public License for more details.
-//
-// You should have received a copy of the GNU General Public License
-// along with this program. If not, see <https://www.gnu.org/licenses/>.
+//(C) 2025 YuriYuri (Yuriy Golovin)
 //----------------------------------------------------------------------------------------------------
 #include "st77xx.h"
 #include "commands_st7789v.h"
@@ -166,5 +152,6 @@ void st77xx_set_col_row_addr(uint16_t st77xx_x_start, uint16_t st77xx_y_start, u
   #endif
   st77xx_dc(ST77XX_DC_DATA);
 }
+
 
 
